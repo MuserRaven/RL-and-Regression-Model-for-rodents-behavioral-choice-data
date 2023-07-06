@@ -1,0 +1,81 @@
+-----------------------------------------
+-----------------------------------------
+Suboptimal choice procedure		-
+Bias for information procedure		-
+					-
+Read folder and file by			-
+Valeria V. Gonzalez			-
+val.gonzalezd@gmail.com			-
+					-
+Last updated 3/22/2022			-
+-----------------------------------------
+-----------------------------------------
+-----------------------------------------
+GENERAL TASK 
+-----------------------------------------
+Rats choose between two levers-Left/Right
+Choice under FR1, when chosen both levers retract
+
+Info alternative choice followed by two tones
+ S+ 100% reinforced, S- 0% reinforced
+No-Info alternative choice followed by one tone
+ S3 50% reinforced
+
+S+, S-, S3 are tones lasting 60s
+ITI= 10 s
+
+-----------------------------------------
+SESSION STRUCTURE
+18 choice trials
+18 forced Info
+18 forced NoInfo
+
+Trials presented one of each in random order
+(3 trials= choice, forced Info, forced NoInfo
+next forced Info, Choice, forced NoInfo, etc)
+
+*V1-V8 received early training with 72 trials total
+-----------------------------------------
+-----------------------------------------
+-----------------------------------------
+Inside Folder: Raw Data
+
+List of Excel files nomenclature logic:
+
+Order condition and procedure_name condition.
+
+For instance:
+"0_Training"
+-----------------------------------------
+List of conditions
+0 = training before surgeries (+15sessions)
+1 = BL1 (5 sessions)
+2 = SteadyState (8 sessions)
+3 = New cues (+15sessions)
+4 = BL2NewCues (5sessions)
+
+-----------------------------------------
+-----------------------------------------
+Inside excel file
+
+Raw: trial by trial
+Columns:
+
+Session= session number
+ID = animal ID	
+Sex = Male or Female
+Group = Brain Area_hM4Di/Control_specific control condition
+Group_s = hM4Di or Control (control includes eGFP, no exp, uni exp)	
+Drug = CNO or VEH	
+Trial #	= trial 1 to 54
+Trial time = time in session	
+Trial type = 1-Choice, 2-Forced Opt/NoInfo, 3-Forced Sub/Info	
+Choice = 1-Opt/NoInfo, 2-Sub/Info	
+Lat_Choice = time from start trial to choice in seconds	
+CS = 1- S+ (100% reward), 2= S- (0% reward), 3= S3 (50%)	
+RR = nose pokes during CS duration 60s	
+Reinf = 1- rewarded, 0-unrewarded
+Brain = ACC or BLA
+-----------------------------------------
+-----------------------------------------
+-----------------------------------------
